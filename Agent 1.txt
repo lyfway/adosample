@@ -1,0 +1,107 @@
+Script:
+```python
+# Automated tests for the Simple Calculator module
+import unittest
+
+# The calculator functions would typically be imported from the calculator module.
+# For this test, copy the functions here for direct testing.
+
+def add(x, y):
+    return x + y
+
+def subtract(x, y):
+    return x - y
+
+def multiply(x, y):
+    return x * y
+
+def divide(x, y):
+    if y == 0:
+        return "Error! Division by zero."
+    return x / y
+
+class TestCalculator(unittest.TestCase):
+    def test_add(self):
+        self.assertEqual(add(2, 3), 5)
+        self.assertEqual(add(-1, 1), 0)
+        self.assertEqual(add(0, 0), 0)
+
+    def test_subtract(self):
+        self.assertEqual(subtract(10, 5), 5)
+        self.assertEqual(subtract(-1, -1), 0)
+        self.assertEqual(subtract(0, 5), -5)
+
+    def test_multiply(self):
+        self.assertEqual(multiply(3, 4), 12)
+        self.assertEqual(multiply(-2, 3), -6)
+        self.assertEqual(multiply(0, 100), 0)
+
+    def test_divide(self):
+        self.assertEqual(divide(10, 2), 5)
+        self.assertEqual(divide(-9, 3), -3)
+        self.assertEqual(divide(0, 1), 0)
+        self.assertEqual(divide(5, 0), "Error! Division by zero.")
+
+    def test_divide_float(self):
+        self.assertAlmostEqual(divide(7, 2), 3.5)
+
+if __name__ == '__main__':
+    unittest.main()
+```
+
+Test Cases:
+- Test Case 1: Addition
+  - Input: add(2, 3)
+  - Expected Output: 5
+- Test Case 2: Addition with negative
+  - Input: add(-1, 1)
+  - Expected Output: 0
+- Test Case 3: Addition with zeros
+  - Input: add(0, 0)
+  - Expected Output: 0
+- Test Case 4: Subtraction
+  - Input: subtract(10, 5)
+  - Expected Output: 5
+- Test Case 5: Subtraction with negatives
+  - Input: subtract(-1, -1)
+  - Expected Output: 0
+- Test Case 6: Subtraction to negative
+  - Input: subtract(0, 5)
+  - Expected Output: -5
+- Test Case 7: Multiplication
+  - Input: multiply(3, 4)
+  - Expected Output: 12
+- Test Case 8: Multiplication with negative
+  - Input: multiply(-2, 3)
+  - Expected Output: -6
+- Test Case 9: Multiplication with zero
+  - Input: multiply(0, 100)
+  - Expected Output: 0
+- Test Case 10: Division
+  - Input: divide(10, 2)
+  - Expected Output: 5
+- Test Case 11: Division with negative
+  - Input: divide(-9, 3)
+  - Expected Output: -3
+- Test Case 12: Division by zero
+  - Input: divide(5, 0)
+  - Expected Output: "Error! Division by zero."
+- Test Case 13: Division with zero numerator
+  - Input: divide(0, 1)
+  - Expected Output: 0
+- Test Case 14: Division with float result
+  - Input: divide(7, 2)
+  - Expected Output: 3.5
+
+Execution Instructions:
+1. Save the script as `test_calculator.py`.
+2. Ensure you have Python installed (version 3.x recommended).
+3. Open a terminal and navigate to the directory containing `test_calculator.py`.
+4. Run the script using the command:
+   ```
+   python test_calculator.py
+   ```
+5. The output will display the results of all test cases. If all tests pass, you will see an `OK` message. If any test fails, details will be shown for debugging.
+6. To add more test cases, simply add more methods to the `TestCalculator` class following the pattern shown.
+
+This script uses the `unittest` framework, provides clear output, handles edge cases (like division by zero), and is well-documented for future maintenance.
