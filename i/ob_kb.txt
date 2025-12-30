@@ -1,0 +1,137 @@
+Flipkart Web Application – Contextualization Document (User Manual)   
+
+     
+
+1. Introduction   
+
+ Flipkart is a leading Indian e-commerce platform that enables users to browse, search, and purchase a wide variety of products online. The website provides a seamless shopping experience with features such as product search, category navigation, user login, and cart management.   
+
+ 2. Application URL   
+
+ Web Link: www.flipkart.com   
+
+ Users can access the platform by typing the above URL into any modern web browser.   
+
+ 3. Home Page Overview   
+
+ After navigating to www.flipkart.com, the home page displays major shopping categories, promotional banners, and quick links.   
+
+ 3.1 Search Bar   
+
+ - Located at the top center of the page.   
+
+ - Allows the user to search for products by typing keywords.   
+
+ - Supports auto-suggestions based on popular searches.   
+
+ 3.2 Category Navigation  
+
+ Home screen categories include:   
+
+ - Home   
+
+ - Mobiles   
+
+ - Fashion   
+
+ - Electronics   
+
+ - Appliances   
+
+ - Beauty   
+
+ - Grocery   
+
+ - More categories under the Explore or More menu.   
+
+  
+
+   
+
+3.3 Promotional Banners   
+
+ - Display current deals, sales, and featured offers.   
+
+ 
+
+4. User Account Features   
+
+ 4.1 Login / Sign Up   
+
+ - Located in the top-right corner.   
+
+ - Supports phone number login and OTP authentication.   
+
+ - Provides access to profile, orders, wishlist, addresses, and rewards after login.   
+
+ 4.2 Cart   
+
+ - Icon shown at the top-right.   
+
+ - Shows items added for purchase.   
+
+ - Allows modifying quantities, removing items, and proceeding to checkout.   
+
+ 5. Core Functionalities   
+
+ 5.1 Product Search   
+
+ - Enter keywords in the search bar.   
+
+ - Search results load with filters for brand, price, ratings, and offers.   
+
+ 5.2 Browsing by Category   
+
+ - Clicking any category opens product listings.   
+
+ - Displays product cards with price, image, ratings, and specifications.   
+
+  5.3 Viewing Product Details   
+
+ Product page displays:   
+
+ - Specifications   
+
+ - Offers   
+
+ - Ratings and reviews   
+
+ - Delivery info   
+
+ - Add to Cart and Buy Now options   
+
+   5.4 Adding Items to Cart   
+
+ - Add to Cart button available on listing and product pages.   
+
+5.5 Checkout and Payment   
+
+ - From the cart, user selects Place Order.   
+
+ - Payment methods: UPI, Card, Net Banking, Cash on Delivery.   
+
+  
+
+6. Additional Features   
+
+ - Order Tracking   
+
+ - Wishlist   
+
+ - Notifications   
+
+ - Customer Support   
+
+  
+
+7. Summary   
+
+ Flipkart provides a complete shopping experience with smooth navigation, secure payments, and intuitive product search features.   
+
+  
+
+  
+
+ 
+
+ 

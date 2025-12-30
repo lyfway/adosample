@@ -1,0 +1,56 @@
+Job Summary:
+
+We are seeking a highly skilled and detail-oriented Senior QA Engineer with a strong background in QA processes and hands-on experience in automation testing. The ideal candidate will have experience designing and building test automation frameworks using Python, Selenium, and Playwright, and should be well-versed in integrating testing within CI/CD pipelines. Knowledge of LLM models and modern AI-powered tools such as GitHub Copilot and Curse.AI is a strong plus.
+
+ 
+
+Key Responsibilities:
+
+Develop and maintain robust, scalable test automation frameworks from scratch.
+Create, maintain, and execute automated test cases using Python, Selenium, and Playwright.
+Collaborate with developers, product managers, and DevOps to ensure quality is integrated into the CI/CD lifecycle.
+Define and implement QA best practices, processes, and metrics across projects.
+Analyze test results, identify bugs, and drive continuous improvement in product quality.
+Participate in code reviews, test planning, and estimation activities.
+Drive automation strategy and advocate for testability in design and implementation.
+ 
+
+ 
+
+Required Qualifications:
+
+5–7 years of experience in software testing with a strong understanding of QA methodologies and testing life cycles.
+Solid hands-on experience in automation testing, including framework creation and enhancement.
+Proficient in Python programming and automation toolsets including Selenium and Playwright.
+Experience working with CI/CD tools such as Jenkins, GitLab CI, or GitHub Actions.
+Strong analytical, debugging, and problem-solving skills.
+Excellent communication and documentation abilities.
+ 
+
+Good to Have:
+
+Exposure to Large Language Models (LLMs) and understanding of AI/ML testing use cases.
+Familiarity with AI-assisted development tools such as GitHub Copilot and Curse.AI.
+Experience with performance testing tools and/or security testing tools is a plus.
+Knowledge of containerization (Docker) and cloud-based environments (AWS, Azure, or GCP).
+ 
+
+Why Join Us?
+
+Opportunity to work on cutting-edge projects with automation and AI integration.
+Collaborative and fast-paced environment with a strong emphasis on innovation and quality.
+Continuous learning opportunities and career growth support.
+ 
+
+
+Years Of Exp
+:
+5 to 7 years
+
+Mandatory Skills
+:
+Python, Automation Testing, Playwright
+
+Location
+:
+Bangalore, Karnataka, India

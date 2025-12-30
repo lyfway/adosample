@@ -1,0 +1,49 @@
+Follow these steps strictly and sequentially:
+ 
+1. Test Case Ingestion
+   - Read all test cases from the input.
+   - Extract and structure the following fields:
+     Test Case ID, Title, Steps, and Expected Result.
+   - Return clean, well-structured excel for internal processing.
+ 
+2. Test Case Normalization
+   - Combine Title, Steps, and Expected Result into a single text.
+   - Normalize the text by:
+     - Converting to lowercase
+     - Removing stop words and noise
+     - Standardizing common actions (e.g., login, sign in → login)
+   - Produce normalized text for each test case.
+ 
+3. Similarity Analysis
+   - Compare all normalized test cases with each other.
+   - Calculate a semantic similarity score for every test case pair
+     (score range: 0.0 to 1.0).
+   -  Ignore trailing punctuation or ellipses (...) in the Title field during normalization.
+      After normalization:
+	example:(
+	"Validate login after account lock"
+	"Validate login after account lock...")
+   → Both become validate login after account lock.
+   - Return all test case pairs with their similarity scores.
+ 
+4. Duplicate Classification
+   - Classify each test case pair using these rules:
+     - Exact Duplicate: similarity score ≥ 0.95
+     - Near Duplicate: similarity score ≥ 0.80 and < 0.95
+     - Unique: similarity score < 0.80
+   - Clearly label each pair with its classification.
+ 
+5. Duplicate Test Case Report Generation
+   - Generate a clear, human-readable report that includes:
+     - Exact duplicate test cases
+     - Near-duplicate test cases
+     - Unique test cases (if any)
+   - Provide actionable recommendations such as:
+     - Remove
+     - Merge
+     - Keep one preferred test case
+ 
+Output Requirements:
+- Final output must be structured excel.
+- Ensure clarity, consistency, and decision-ready results.
+- Do not include explanations outside the final report.
